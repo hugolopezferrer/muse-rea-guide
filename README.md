@@ -61,8 +61,20 @@ authorized, or permissively licensed (MIT or similar).
 
 ## Layout
 
-- `docs/` — one page per phase, each with its copy-paste prompt, plus symptom-based troubleshooting.
-- `scripts/` — the idempotent installers for each phase, for re-running or auditing.
+```text
+├── README.md / README_es.md   — this guide (English / Spanish)
+├── LICENSE                    — MIT
+├── docs/
+│   ├── fase-1.md / fase-1_es.md   — Phase 1: native engine
+│   ├── fase-2.md / fase-2_es.md   — Phase 2: per-target tools
+│   ├── fase-3.md / fase-3_es.md   — Phase 3: MCP bridge
+│   └── troubleshooting.md / troubleshooting_es.md
+└── scripts/                   — the idempotent installers, one per phase
+    ├── setup-rea-phase1.sh
+    ├── setup-rea-phase2.sh
+    ├── setup-rea-phase3.sh
+    └── install-playwright-bridge.sh
+```
 
 ## License
 

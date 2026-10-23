@@ -60,8 +60,20 @@ clonarás software mío, autorizado o con licencia permisiva (MIT o similar).
 
 ## Estructura
 
-- `docs/` — una página por fase, con su prompt copiable, y el troubleshooting por síntoma.
-- `scripts/` — los instaladores idempotentes de cada fase, por si hay que re-ejecutar o auditar.
+```text
+├── README.md / README_es.md   — esta guía (inglés / español)
+├── LICENSE                    — MIT
+├── docs/
+│   ├── fase-1.md / fase-1_es.md   — Fase 1: motor nativo
+│   ├── fase-2.md / fase-2_es.md   — Fase 2: herramientas por objetivo
+│   ├── fase-3.md / fase-3_es.md   — Fase 3: puente MCP
+│   └── troubleshooting.md / troubleshooting_es.md
+└── scripts/                   — los instaladores idempotentes, uno por fase
+    ├── setup-rea-phase1.sh
+    ├── setup-rea-phase2.sh
+    ├── setup-rea-phase3.sh
+    └── install-playwright-bridge.sh
+```
 
 ## Licencia
 
