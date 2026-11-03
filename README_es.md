@@ -2,6 +2,8 @@
 
 # Instalar REA en Muse — Guía paso a paso
 
+**Guía paso a paso para instalar REA en tu cuenta de Muse: tres fases, prompts para copiar y pegar y verificación basada en evidencia.**
+
 Deja [REA (Reverse Engineer Anything)](https://github.com/morluto/rea) funcionando dentro de tu cuenta de **Muse** para analizar y clonar software con evidencia — sin abrir una terminal: todo se hace con prompts a tu Muse.
 
 ![REA](https://img.shields.io/badge/REA-6.7.0-blue) ![Ghidra](https://img.shields.io/badge/Ghidra-12.1.4-green) ![JDK](https://img.shields.io/badge/JDK-21-orange) ![Licencia](https://img.shields.io/badge/licencia-MIT-lightgrey)
@@ -74,6 +76,11 @@ clonarás software mío, autorizado o con licencia permisiva (MIT o similar).
     ├── setup-rea-phase3.sh
     └── install-playwright-bridge.sh
 ```
+
+## Créditos
+
+- [REA (Reverse Engineer Anything)](https://github.com/morluto/rea), de morluto — la herramienta que instala esta guía.
+- [Muse](https://muse.ai), de Meta — el asistente dentro del que corre esta integración.
 
 ## Licencia
 
