@@ -1,8 +1,8 @@
+🇺🇸 [English](README.md) | 🇪🇸 [Español](README_es.md)
+
 # Install REA in Muse — Step-by-step guide
 
 Get [REA (Reverse Engineer Anything)](https://github.com/morluto/rea) running inside your **Muse** account to analyze and clone software with evidence — no terminal needed: everything is done with prompts to your Muse.
-
-*Leer en español: [README_es.md](README_es.md)*
 
 ![REA](https://img.shields.io/badge/REA-6.7.0-blue) ![Ghidra](https://img.shields.io/badge/Ghidra-12.1.4-green) ![JDK](https://img.shields.io/badge/JDK-21-orange) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
