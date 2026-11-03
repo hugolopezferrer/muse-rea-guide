@@ -1,6 +1,6 @@
-# Instalar REA en Muse — Guía paso a paso
+🇪🇸 [Español](README_es.md) | 🇺🇸 [English](README.md)
 
-*Read this in English: [README.md](README.md)*
+# Instalar REA en Muse — Guía paso a paso
 
 Deja [REA (Reverse Engineer Anything)](https://github.com/morluto/rea) funcionando dentro de tu cuenta de **Muse** para analizar y clonar software con evidencia — sin abrir una terminal: todo se hace con prompts a tu Muse.
 
